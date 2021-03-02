@@ -1,0 +1,238 @@
+body {
+  background-color: #faf2e4;
+  margin:0 10%;
+  font-family: sans-serif;
+}
+
+ h1 {
+  text-align: center;
+  font-family: serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-bottom: 1px solid #57b1dc;
+  margin-top: 30px;
+ }
+ h2 {
+  color: #d1633c;
+  font-size: 1em;
+ }
+ p {
+  text-align: justify;
+
+ }
+ /* header */
+.wrapper {
+  max-width: 1496px;
+  width: 100%;
+  margin:  10px auto;
+}
+
+header.top_header{
+  /* background-color: salmon; */
+  
+  height: 100px;
+  display: flex;
+}
+
+header.top_header .wrapper {
+  /* background-color: seagreen; */
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 0;
+}
+header.top_header .wrapper nav.nav {
+ 
+  /* background-color: seashell; */
+
+}
+header.top_header .wrapper nav.nav ul {
+  padding: 0;
+}
+header.top_header .wrapper nav.nav ul li{
+ 
+  /* background-color: skyblue; */
+  
+  display: inline;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 40px;
+  text-decoration: none;
+  color: #000;
+}
+
+header.top_header .wrapper nav.nav ul li a{
+  text-decoration: none;
+}
+
+header.top_header .wrapper nav.nav ul li a:hover {
+  color: #d1633c;
+}
+header.top_header .wrapper nav.nav ul li a.active {
+ color: #d1633c; 
+}
+/* body conteaner */
+
+.comtainer {
+  /* background-color: aquamarine; */
+}
+.photo {
+  overflow: hidden;
+  /* background-color: blue; */
+}
+.photo p img {
+  padding-bottom: 15px;
+}
+
+
+/* main */
+main .container_form {
+  display: block;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px rgb(172, 172, 172);
+  /* width: 60%; */
+  height: auto;
+  padding: 15px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+
+main .container_form  ul.n li {
+  list-style-type: none;
+  /* position: relative;
+  left:50px; */
+  padding-bottom: 10px;
+}
+
+main .container_form legend {
+  color: #d1633c;
+}
+/*/ main */
+  /* footer */
+.footer_social {
+  border-top: 1px solid #57b1dc;
+  text-align: center;
+  margin-top: 50px; 
+  /* background-color: salmon; */
+  
+ }
+
+ .footer_social p {
+   /* background-color: sienna; */
+   text-align: center;
+  
+  
+ }
+ .footer_social .location p {
+   
+   text-align: left;
+ }
+ .footer_social .visit p{
+   border-top: 1px solid #57b1dc;
+   padding-bottom: 50px;
+   padding-top: 15px;
+ }
+ .footer_social p img {
+   /* background-color: slateblue; */
+   width: 30px;
+   height: 30px;
+   margin-left: .5em;
+   margin-right: .5em;
+ }
+
+
+ 
+ .table_row {
+   border:1px solid #000;
+   width: 100%;
+ } 
+ .table_row th {
+  border:1px solid #ccc
+}
+.table_row td {
+  border:1px solid #ccc
+}
+.table_row span {
+  font-weight: bold;
+}
+
+
+
+
+/* media */
+@media (min-width: 950px) and (max-width: 1199px) {
+
+  h1 {
+    font-size: 14px;
+  }
+  header.top_header .wrapper nav.nav ul li{
+ 
+    /* background-color: skyblue; */
+    /* text-align: center; */
+    display: inline;
+    align-items: center; 
+    margin-left: 0px;
+    margin-right: 18px;
+    text-decoration: none;
+    color: #000;
+   
+  }
+  main .form_pizza h1{
+    text-align: center;
+  }
+  main .container_form {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px rgb(172, 172, 172);
+    /* width: 60%; */
+    height: auto;
+    padding-top: 15px;
+    width: auto;
+    margin:0;
+   
+
+  }
+ 
+  main .container_form  ul.n  li>textarea {
+ background-color: aquamarine;
+ width:80% ;
+    
+  }
+}
+
+/* small */
+@media (max-width:949px) {
+
+  h1 {
+    font-size: 14px;
+  }
+  header.top_header .wrapper nav.nav ul li{
+ 
+    /* background-color: skyblue; */
+    /* text-align: center; */
+    display: inline;
+    align-items: center; 
+    margin-left: 0px;
+    margin-right: 18px;
+    text-decoration: none;
+    color: #000;
+   
+  }
+  main .container_form {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px rgb(172, 172, 172);
+    /* width: 60%; */
+    height: auto;
+    padding-top: 15px;
+    width: auto;
+    margin:0;
+   
+
+  }
+ 
+  main .container_form  ul.n  li>textarea {
+ background-color: aquamarine;
+ width:80% ;
+    
+  }
+}

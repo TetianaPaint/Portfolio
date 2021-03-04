@@ -108,6 +108,10 @@ main .container_form  ul.n li {
 main .container_form legend {
   color: #d1633c;
 }
+#my_first_canvas {
+  border: 1px solid #000000;
+  background-color: aliceblue;
+}
 /*/ main */
   /* footer */
 .footer_social {

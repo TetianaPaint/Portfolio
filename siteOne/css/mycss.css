@@ -105,8 +105,16 @@ main .container_form  ul.n li {
   padding-bottom: 10px;
 }
 
-main .container_form legend {
+ main .container_form legend {
   color: #d1633c;
+}
+
+ .cooking h1 {
+  color:rgb(113, 187, 113);
+}
+.cooking img {
+  float: right; 
+  margin: 0 12px;
 }
 #my_first_canvas {
   border: 1px solid #000000;

@@ -4,7 +4,7 @@
 body {
   background-color: #faf2e4;
   margin:0 10%;
-
+  
   font-family: 'Roboto', sans-serif;
 }
 
@@ -12,11 +12,14 @@ body {
  h1 {
   text-align: center;
   font-size: 1.5rem;
-  font-weight:normal;
+  font-weight:bolder;
   font-stretch:normal;
   text-transform: uppercase;
   border-bottom: 1px solid #57b1dc;
   margin-top: 30px;
+  text-transform: uppercase;
+ letter-spacing: .5em;
+ color: olive;
  }
  h2 {
   color: #d1633c;
@@ -24,10 +27,10 @@ body {
   font-weight:bolder;
   font-style:italic;
   font-stretch:ultra-condensed;
+  font-variant: small-caps;
  }
  p {
-  text-align: justify;
-
+  text-align: justify;  
  }
  /* header */
 .wrapper {
@@ -130,6 +133,28 @@ main .container_form  ul.n li {
   background-color: aliceblue;
 }
 /*/ main */
+/* menu page */
+#appetizers  dt strong, #entrees  dt strong{ 
+   
+  font-style: italic; 
+  color: tomato;
+ }
+ #info p { font-style: italic; }
+.price {
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: gray;
+ }
+ .label {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: normal;
+ }
+ p.warning, sup {
+  font-size: small;
+  color: red;
+ }
+/* /menu page */
   /* footer */
 .footer_social {
   border-top: 1px solid #57b1dc;

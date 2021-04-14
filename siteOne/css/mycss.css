@@ -38,7 +38,14 @@ body {
   width: 100%;
   margin:  10px auto;
 }
-
+ul.list{
+  
+  list-style-type: "\1F44D";
+  list-style-position: outside;
+}
+ul.list li {
+  background-color: aqua;
+}
 header.top_header{
   /* background-color: salmon; */
   
@@ -60,21 +67,23 @@ header.top_header .wrapper nav.nav {
 }
 header.top_header .wrapper nav.nav ul {
   padding: 0;
+  
 }
 header.top_header .wrapper nav.nav ul li{
  
   /* background-color: skyblue; */
   
-  display: inline;
+  /* display: inline; */
   align-items: center;
   margin-left: 0px;
   margin-right: 40px;
-  text-decoration: none;
+  text-decoration: none; 
   color: #000;
 }
 
 header.top_header .wrapper nav.nav ul li a{
-  text-decoration: none;
+  text-decoration: none; 
+ 
 }
 
 header.top_header .wrapper nav.nav ul li a:hover {
